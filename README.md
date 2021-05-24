@@ -15,7 +15,10 @@
   </p>
     <div align="center">
     <h3>Built with:<h3>
-      <a href="https://reactjs.org/docs/getting-started.html">
+          <a href="https://www.typescriptlang.org/docs/">
+    <img src="public/typescript.svg" alt="Logo" width="60" height="60">
+  </a>
+      <a style="margin-left: 50px" href="https://reactjs.org/docs/getting-started.html">
     <img src="public/react.svg" alt="Logo" width="60" height="60">
   </a>
     <a style="margin-left: 50px; margin-right: 50px" href="https://redux.js.org/api/api-reference)">
@@ -64,6 +67,7 @@ This is a pretty simple weather web appliation that fetches data via the OpenWea
 
 ### Built With
 
+* [TypeScript](https://www.typescriptlang.org/docs/)
 * [React](https://reactjs.org/docs/getting-started.html)
 * [Redux](https://redux.js.org/api/api-reference)
 * [Tailwind](https://tailwindcss.com/docs)
