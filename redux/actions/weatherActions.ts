@@ -15,7 +15,7 @@ export const getWeather = (
   return async (dispatch) => {
     try {
       const res = await fetch(
-        `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${process.env.NEXT_PUBLIC_OPEN_WEATHER_API_KEY}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${process.env.NEXT_PUBLIC_OPEN_WEATHER_API_KEY}`
       );
 
       if (!res.ok) {

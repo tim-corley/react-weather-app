@@ -1,7 +1,7 @@
 <!-- PROJECT HEADER -->
 <br />
 <p align="center">
-  <a href="https://nhl.com">
+  <a href="https://react-weather-app-zeta.vercel.app/">
     <img src="public/weathericon.png" alt="Logo" width="100" height="100">
   </a>
 
@@ -60,6 +60,8 @@
 
 This is a pretty simple weather web appliation that fetches data via the OpenWeather API for a given city. 
 
+[Visit Demo](https://react-weather-app-zeta.vercel.app/)
+
 ### Built With
 
 * [React](https://reactjs.org/docs/getting-started.html)
@@ -94,7 +96,12 @@ Some things you'll need in order to get going...
 
 ### Deployment
 
-N/A
+1. Create build
+   ```sh
+   yarn build
+   ```
+
+I've decided to host this application via [Vercel](https://vercel.com/docs). Follow the documentation to get setup and deploy the app
 
 ### API
 
