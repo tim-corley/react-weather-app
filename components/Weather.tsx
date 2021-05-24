@@ -23,7 +23,7 @@ export const Weather: React.FC<WeatherProps> = ({ data }) => {
           alt="Weather Icon"
         />
       </div>
-      <div className="mt-6 flex justify-between text-center">
+      <div className="mt-6 px-8 flex justify-between text-center">
         <div>
           <p className="text-gray-700 font-bold">{data.main.temp}</p>
           <p className="text-xs mt-2 text-gray-600 font-hairline">
